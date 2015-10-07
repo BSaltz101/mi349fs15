@@ -1,0 +1,34 @@
+div.persona {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+	height: 360px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2{
+	color: #999;
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+	background: #ccc;
+	padding: 10px;
+}
+
+ul img {
+	height: 200px;
+	width: 100%;
+}
+
+li h3 {
+	text-align: center;
+	color: #666;
+}
