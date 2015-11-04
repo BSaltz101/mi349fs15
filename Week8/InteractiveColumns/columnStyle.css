@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+
+.column {
+	float: left;
+	font-weight: 100;
+	padding: 30px;
+	width: 25%;
+	font-size: 14px;
+	color: black;
+}
+
+@media all and (max-width:399px) {
+	.column{
+		width: 100%;
+	}
+}
+
+@media (min-width:400px) and (max-width: 799px) {
+	.column{
+		width: 100%;
+	}
+}
+
+@media (min-width:800px) and (max-width:1199px) {
+	.column{
+		width: 40%;
+	}
+}
+
+@media (min-width:1200px) {
+	.column{
+		width: 25%;
+	}
+}
