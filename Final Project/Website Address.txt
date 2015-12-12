@@ -1,0 +1,3 @@
+I am using MSU AFS to host my site. My site address is:
+
+	https://www.msu.edu/~saltzm12
